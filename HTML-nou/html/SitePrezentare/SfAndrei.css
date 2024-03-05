@@ -1,0 +1,86 @@
+table {
+    border: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    /* height: 1000px; */
+    text-align: center;
+    font-size: 30px;
+}
+
+td {
+    border: 2px solid black;
+}
+
+tr {
+    border: 2px solid black;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#Articole {
+    height: 800px;
+}
+
+#Imagine {
+    height: 300px;
+}
+
+#art2 {
+    width: 25%;
+    text-align: justify;
+    padding: 30px;
+}
+
+#art1 {
+    width: 60%;
+    text-align: justify;
+    padding: 30px;
+    text-align: justify;
+}
+
+#titluart1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#titlu1 {
+    text-align: center;
+    font-size: 40;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: 1px solid white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#Imagine img {
+    width: 100%;
+    /* or adjust the width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: #111;
+}
